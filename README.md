@@ -18,7 +18,7 @@ The Dataset contains network traffic gathered in a real cellular environment.
 The whole dataset includes 8 VoIP conversation grouped per codec: G.722, G.729, GSM, G.711, Mpeg4-16, OPUS, Speex-8, Speex-16.
 
 The processed data files are available at: https://github.com/mariodim/ml_mobile_dataset/blob/main/ML_TimeSeries_DATASETS.zip
-under the subfolder name "mobile".
+under the subfolder named "mobile".
 
 Each conversation contains 6 temporal features:
 - MOS (Mean Opinion Score) --> measures the call quality (expressed in a pure value between 1 and 5)
