@@ -31,7 +31,7 @@ Each conversation contains 6 temporal features:
 
 ## Usage
 
-Each sub-dataset must be uploaded into our Python routine available at:  
+Each sub-dataset must be uploaded into our Python routine available at: https://colab.research.google.com/drive/1MgiA5uNF4lF5kEsIgAo4W8Jbm1BqlQYL?usp=sharing 
 
 After uploaded a sub-dataset (e.g. mob_g722.txt, meaning that the traffic is collected within the mobile scenario and the codec used is G.722), set the parameters in the first "cell" of the Python code:  
 
@@ -39,7 +39,7 @@ After uploaded a sub-dataset (e.g. mob_g722.txt, meaning that the traffic is col
 - train_size --> you can choose the percentage of training size (the test size is set accordingly);
 - param --> you can define the size of your DL network (number of dense neurons, number units);
 - models --> you can choose which model you want to use: 0 = LSTM ; 1 = VAR+LSTM ; 2 = CNN ; 3 = VAR+CNN ; 4 = GRU ; 5 = VAR+GRU
-- n_past (in the run definition) --> the lag "p" obtained by applying Akaike Criterion. For codec G.722 amounts to 12.
+- n_past (in the run definition) --> the lag "p" obtained by applying Akaike Criterion. For codec G.722, p=12.
 
 With the default values set, you have just to upload the file, set its name and run.
 
@@ -49,6 +49,6 @@ Output files include:
 
 - TXT files containing time series predictions per technique --> e.g. the output file mob_g722_cnn.txt is a 12-column file in this format: column #1 contains original values of MOS, column #2 contains predicted values of MOS, column 2 contains original values of BW, column #2 contains predicted values of BW, and so forth. Once exported, such files can be obviously used to reproduce the plots through different plot tools;
  
-- Information about RMSE and MAE per each technique
+- Information about MSE and MAE per each technique
 
 - Information about training time per each technique (directly shown in the output code).
