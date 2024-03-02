@@ -1,7 +1,7 @@
 ### Getting Started
 
 ## Hybrid Learning Strategies for Multivariate Time Series Forecasting of Network Quality Metrics
-We release an original real-world dataset used to perform the so-called "Multivariate time series prediction" by combining statistical techniques (e.g. VAR) with Deep Learning techniques. The dataset contains several features of cellular traffic organized into time series. The goal is to exploit statistical and learning-based techniques to predict the future behavior of a given feature. 
+We release an original real-world dataset used to perform the so-called "Multivariate time series prediction" by combining statistical techniques (e.g. VAR) with Deep Learning techniques. The dataset contains several features of cellular traffic organized into time series. The goal is to exploit statistical and learning-based techniques to predict the future behavior of a given feature. If you dataset, code, or part of them, please cite the following work: https://www.sciencedirect.com/science/article/pii/S138912862400118X
 
 ## Cellular Traffic collection in a real environment
 
